@@ -20,7 +20,7 @@ public class AsciiValues {
 
         char c1 = 'K';
         char c2 = '?';
-        System.out.println(c1+c2); //138 ( ve ünlemin ascii deger toplami)
+        System.out.println(c1+c2); //138 ( k ve ünlemin ascii deger toplami)
         //Java da char lari matematiksel islemlerde kullanirsaniz, java char larin ASCII degerlerini kullanir
 
     }

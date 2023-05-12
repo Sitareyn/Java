@@ -15,6 +15,7 @@ public class WrapperClass {
    //m yazip nokta koyarsaniz bircok method görürsünüz cünkü Wrapper Class lar method icerir
    Integer m =12 ;
 
+
    //Örnekler
 
         byte p = 33;
@@ -45,10 +46,11 @@ public class WrapperClass {
 
         char b = 'B';
         Character wrapperB= b ;
+         System.out.println("wrapperB = " + wrapperB);
 
         Boolean isOldWrapper = true;
         boolean isOldPrimitive =isOldWrapper;
-
+         System.out.println("isOldPrimitive = " + isOldPrimitive);
     }
 
 
