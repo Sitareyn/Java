@@ -29,10 +29,11 @@ public class StringManipulations {
        int sLength = s.length();
         System.out.println("sLength = " + sLength);
     //Örnek5= "s" Stringindeki ilk 4 karakteri aliniz
-        //s.substring==> bu kullanimda ilk index dahildir ,ikinci index harictir
 
-       String sub1= s.substring(0,4);
+     //s.substring==> bu kullanimda ilk index dahildir ,ikinci index harictir
+        String sub1= s.substring(0,4);
         System.out.println("sub1 = " + sub1);
+
         //Ornek6)s deki  is yazisini yazdir
 
         String sIS =s.substring(5,7);
@@ -54,7 +55,7 @@ public class StringManipulations {
         boolean isExist= s.contains("money");
         System.out.println("isExist = " + isExist);
 
-        //Örnek10) "s" String inin bello bor harfle baslayip baslamadigini kontrol edin
+        //Örnek10) "s" String inin belli bir harfle baslayip baslamadigini kontrol edin
          boolean isStars = s.startsWith("Java");
         System.out.println("isStars = " + isStars);
 
