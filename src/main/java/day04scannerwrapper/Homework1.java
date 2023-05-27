@@ -30,8 +30,16 @@ public class Homework1 {
         sonuc= (sayi1+sayi2+sayi3)/3;
         System.out.println("Ortalamaniz= "+sonuc);
 
+//Kullanicidan bir dikdörtgenin iki kenar uzunluklarini aliniz
+        //a)Alanini hesaplayiniz ==> kisakenar*uzunkenar
+        //b)Cevresini hesablayiniz==>2*kisa kenar + 2*uzun kenar
 
+        System.out.println("Lütfen dikförtgenin iki kenar uzunlugunu giriniz");
+        double kisaKenar = input.nextDouble();
+        double uzunKenar =input.nextDouble();
 
+        System.out.println("alan = " + kisaKenar * uzunKenar);
+        System.out.println("(cevre = " + (kisaKenar*2+uzunKenar*2));
 
 
     }
