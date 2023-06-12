@@ -10,22 +10,33 @@ public class ArrayList03 {
         Example 1) Kullanicinin  girdigi harf list'te var ise o harfi "Buldum!" a cevirin, yok ise o harfi list'e ekleyin
          */
 
-        List<String> myList =new ArrayList<>();
+        List<String> myList = new ArrayList<>();
         myList.add("A");
         myList.add("H");
         myList.add("J");
-        Scanner input =new Scanner(System.in);
-        System.out.println("Please enter a letter...");
 
-        String letter = input.next().toUpperCase().substring(0,1);
+        Scanner input = new Scanner(System.in);
+        int counter=0;
+        int live =3;
 
-        if (myList.contains(letter)){
-            myList.set(myList.indexOf(letter), "Buldum! ");
-        }else {
-            myList.add(letter);
-        }
-        System.out.println(myList);
+        do{
+            if(counter==live){
+                System.out.println("Game Over");
+                break;
+            }
+            System.out.println("Please enter a letter...");
+            String letter = input.next().toUpperCase().substring(0, 1);
 
+            if(myList.contains(letter)){
+                myList.set(myList.indexOf(letter), "Buldum!" );
+
+            }else{
+                myList.add(letter);
+            }
+            System.out.println(myList);
+
+            counter++;
+        }while (true);
 
 
 

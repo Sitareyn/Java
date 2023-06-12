@@ -11,7 +11,7 @@ public class ArrayList01 {
 
         for (double w : prices) {
             if (prices.indexOf(w) == prices.lastIndexOf(w)) {
-                System.out.println(w);
+                System.out.println(w); //3.75 - 4.0
             }
         }
 
